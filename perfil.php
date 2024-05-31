@@ -37,7 +37,7 @@ $usuario = $stmt->fetch(PDO::FETCH_ASSOC);
             <p>Email: <?php echo $usuario['email']; ?></p>
             <!-- Opções do perfil -->
             <ul>
-                <li><a href="agendar_treino.php">Agendar Treino</a></li>
+                <li><a href="musculos.php">Agendar Treino</a></li>
                 <li><a href="meus_treinos.php">Ver Meus Treinos Agendados</a></li>
                 <li><a href="editar_perfil.php">Editar Perfil</a></li>
                 <li><a href="logout.php">Sair</a></li>
