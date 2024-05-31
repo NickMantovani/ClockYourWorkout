@@ -21,6 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     try {
         $stmt->execute();
         echo "Usuário registrado com sucesso!";
+        header("Location: perfil.php"); // Redireciona para a página do painel do usuário
     } catch(PDOException $e) {
         echo "Erro ao registrar usuário: " . $e->getMessage();
     }

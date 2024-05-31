@@ -138,6 +138,56 @@ if (!empty($agendamentos)) {
 ?>
   </div>
 </section>  
+
+<section class="contact" id="contact">
+    <div class="max-width">
+        <div class="contact-content">
+            <div class="coluna left">
+                <div class="coluna">
+                    <div class="info">
+                        <div class="head">Name</div>
+                        <div class="sub-title">ClockYourWorkout</div>
+                    </div>
+                </div>
+                <div class="coluna">
+                    <div class="info">
+                        <div class="head">Phone</div>
+                        <div class="sub-title">------</div>
+                    </div>
+                </div>
+                <div class="coluna">
+                    <div class="info">
+                        <div class="head">Email</div>
+                        <div class="sub-title">nickmanraujo@gmail.com</div>
+                    </div>
+                </div>
+            </div>
+            <div class="coluna right">
+                <div class="text">Nos contate:</div>
+                <form action="process_form.php" method="post">
+                    <div class="campos">
+                        <div class="campo name">
+                            <input type="text" name="name" placeholder="Name" required />
+                        </div>
+                        <div class="campo email">
+                            <input type="email" name="email" placeholder="Email" required />
+                        </div>
+                    </div>
+                    <div class="campo">
+                        <input type="text" name="subject" placeholder="Subject" required />
+                    </div>
+                    <div class="campo textarea">
+                        <textarea name="message" cols="30" rows="10" placeholder="Message.." required></textarea>
+                    </div>
+                    <div class="button-area">
+                        <button type="submit">Send message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
   <!-- FOOTER SECTION -->
   <footer>
   <span>Criado por 
