@@ -8,7 +8,7 @@ if (!isset($_SESSION['id'])) {
 }
 
 // Conexão com o banco de dados
-require_once 'conexao.php'; // Altere para o caminho correto do arquivo de conexão
+require_once 'conexao.php'; 
 
 // Consulta SQL para obter informações do usuário
 $sql = "SELECT * FROM cadastro WHERE id = :id";
