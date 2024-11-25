@@ -67,6 +67,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <input type="submit" value="Agendar">
                 </form>
                 <p><a href="meus_treinos.php">Ver meus agendamentos</a></p>
+                <a href="perfil.php" class="btn-voltar">Voltar ao Perfil</a>
             </div>
         </div>
     </div>

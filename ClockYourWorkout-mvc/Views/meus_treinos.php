@@ -76,6 +76,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['delete_id'])) {
                     <?php endforeach; ?>
                 </table>
                 <p><a href="agendamento.php">Agendar novo horário</a></p>
+                <a href="perfil.php" class="btn-voltar">Voltar ao Perfil</a>
             </div>
         </div>
     </div>

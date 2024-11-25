@@ -25,7 +25,7 @@ $desafios = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <body>
     <div class="container">
         <h1>Desafios de Treino</h1>
-        <a href="criar_desafio.php">Criar Novo Desafio</a>
+        <a href="desafio.php">Criar Novo Desafio</a>
         <ul>
             <?php foreach ($desafios as $desafio): ?>
                 <li>

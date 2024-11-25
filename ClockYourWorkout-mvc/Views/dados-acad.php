@@ -113,8 +113,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <div class="result-box">
                     <h2>Resultado da TMB</h2>
                     <p>Sua Taxa Metabólica Basal (TMB) ajustada é: <strong><?php echo number_format($tmb, 2); ?> calorias/dia</strong></p>
-                    <p><a href="#form">Voltar ao Formulário</a></p>
-                </div>
+                    <a href="perfil.php" class="btn-voltar">Voltar ao Perfil</a>
+                    </div>
             <?php else: ?>
                 <div class="form-box" id="form">
                     <h2>Calcular Taxa Metabólica Basal (TMB)</h2>

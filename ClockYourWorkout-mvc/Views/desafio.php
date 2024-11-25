@@ -56,6 +56,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <input type="submit" value="Criar Desafio">
         </form>
         <p><a href="lista_desafios.php">Ver todos os desafios</a></p>
+        <a href="perfil.php" class="btn-voltar">Voltar ao Perfil</a>
+
     </div>
 </body>
 </html>

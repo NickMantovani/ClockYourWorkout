@@ -56,6 +56,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 
                 <button type="submit">Enviar</button>
             </form>
+            <a href="perfil.php" class="btn-voltar">Voltar ao Perfil</a>
+
         </div>
     </div>
 </body>
